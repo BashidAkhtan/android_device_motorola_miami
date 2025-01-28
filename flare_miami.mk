@@ -12,11 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from miami device
 $(call inherit-product, device/motorola/miami/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Flare stuff.
+$(call inherit-product, vendor/flare/config/common_full_phone.mk)
+
+# Project Flare
+FLARE_MAINTAINER := Bashid_Akhtan
+TARGET_ENABLE_BLUR := true
+TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_miami
+PRODUCT_NAME := flare_miami
 PRODUCT_DEVICE := miami
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola

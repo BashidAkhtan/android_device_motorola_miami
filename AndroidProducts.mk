@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_miami.mk
+    $(LOCAL_DIR)/flare_miami.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_miami-user \
-    lineage_miami-userdebug \
-    lineage_miami-eng
+    flare_miami-user \
+    flare_miami-userdebug \
+    flare_miami-eng
