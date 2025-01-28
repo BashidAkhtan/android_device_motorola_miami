@@ -15,6 +15,18 @@ $(call inherit-product, device/motorola/miami/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Mist OS
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_EXCLUDES_AUDIOFX := true
+WITH_GMS := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+MISTOS_MAINTAINER=Bashid_Akhtan
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_miami
 PRODUCT_DEVICE := miami
