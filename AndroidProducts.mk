@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_miami.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_miami-user \
-    lineage_miami-userdebug \
-    lineage_miami-eng
+    infinity_miami-user \
+    infinity_miami-userdebug \
+    infinity_miami-eng
